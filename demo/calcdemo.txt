@@ -1,0 +1,24 @@
+from = 1
+to = 9
+
+popName1 = wangsuA
+popName2 = wangsuB
+popBandWidth = 512
+$usage = 513
+
+exp1 = $popName1 @ "wang"
+exp2 = $result1 = 2 * (3 + 9) / 3 + 30 - 40 / 8 + 7
+exp3 = $result2 = 10 * 9 - (3 + 27 ) * 2  - 10.0
+exp4 = $result4 = (2 * (3 + 9) / 3 + 30 - 40 / 8) * (10 * 9 - (3 + 27 ) * 2)
+exp5 = $result3 = (2 * (3 + 9) / 3 + 30 - 40 / 8) * (10 * 9 - (3 + 27 ) * 2) < 10 * 9 - (3 + 27 ) * 2
+exp6 = (2 * (3 + 9) / 3 + 30 - 40 / 8) * (10 * 9 - (3 + 27 ) * 2) > 10 * 9 - (3 + 27 ) * 2.0 && $popName1 @ "wanga"
+exp7 = $popName1 + "+" + $popName2
+exp8 = 7 & 0x5
+exp9 = $popName1 == $popName2
+
+result1 = 40
+result2 = 20.000000
+result3 = false
+result4 = 990
+
+

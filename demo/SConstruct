@@ -1,0 +1,16 @@
+
+
+env = Environment()  
+
+src_files = Split("""
+./demo.cpp
+./configfile.cpp
+./../src/sp_caculator_utilites.cpp
+./../src/sp_caculator_expvalue.cpp
+./../src/sp_caculator.cpp
+""")
+
+env.Program(source = src_files, 
+              LIBPATH = ['../lib'],
+              target = 'democalc',
+              CPPPATH='./../src')
